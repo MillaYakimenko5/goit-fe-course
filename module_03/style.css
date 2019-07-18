@@ -1,0 +1,79 @@
+.loadmore {
+    border: 1px solid black;
+    background: inherit;
+    padding: 20px 30px; 
+    margin: 0px auto;
+    display: block;
+    margin-top: 55px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.menu { 
+    text-align: center;
+}
+.menu ul{
+    padding: 0;
+}
+.menu ul li {
+    display: inline-block;
+    margin-left: 100px;
+}
+.menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;    
+}
+.menu ul li:first-child {
+    margin-left: 0;
+}
+.menu .active {
+    color: blue;
+}
+.menu ul li a:hover {
+     color: blue;
+}
+.life::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.life-item{ 
+padding-right: 30px;
+display: block;
+float: left;
+width: 50%;
+box-sizing: border-box;
+margin-top: 140px;
+overflow: hidden;
+}
+.life-item h1{
+padding-bottom: 40px;
+font-size: 30px;
+}
+.life .img {
+    height: 280px;
+    width: 100%;
+}
+.life .img img{ 
+    height: 100%;
+    width: 100%;
+}
+.wrapper{ 
+width: 900px;
+margin: 0 auto;
+}
+.life div:nth-child(2n){
+padding-right: 0;
+padding-left: 30px;
+}
+.category{
+    color: grey;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+.content{
+    overflow: hidden;
+    font-size: 14px;
+}
