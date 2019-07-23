@@ -1,0 +1,125 @@
+.products::after, .news::after, header::after, .content::after{
+content:"";
+display: block;
+clear: both;
+}
+.news-item{
+    width: 31.5%;
+    margin-right: 30px;
+    margin-top: 30px;
+    float: left;
+}
+.news-item:nth-child(3n){
+    margin-right: 0;
+}
+.news-item .img {
+    width: 100%;
+    height: 260px;
+}
+.news-item .img img {
+    width: 100%;
+    height: 100%;
+}
+.news-item button {
+    color: white;
+    background: green;
+    padding: 20px 40px;
+    border: none;
+    cursor: pointer;
+}
+.news-item .devider {
+    margin: 0;
+}
+.products-item{
+    width: 22.9%;
+    background: lightskyblue;
+    margin-right: 30px;
+    margin-top: 30px;
+    float: left;
+}
+.products-item:nth-child(4n){
+    margin-right: 0;
+}
+.products-item .img {
+    width: 100%;
+    height: 275px;
+    text-align: center;
+}
+.products-item .img img {
+    width: 80%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.title{
+    text-align: center;
+    text-transform: uppercase;
+}
+.devider{
+    width: 100px;
+    height: 2px;
+    border: none;
+    background: green;
+}
+.logo{
+    float: left;
+}
+.logo a {
+    text-transform: uppercase;
+    font-weight: 100;
+    color: black;
+}
+.logo a span {
+    color: green;
+    font-weight: bold;
+}
+.header-menu{
+    float: right;
+}
+.header-menu ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+.header-menu ul li a{
+    text-decoration: none;  
+    text-transform: uppercase;
+    color: black; 
+    font-weight: bold;
+}
+.header-menu ul li a:hover {
+    color: green;
+}
+.logo a{
+    text-decoration: none;
+}
+.wrapper{ 
+width: 1100px;
+margin: 0 auto;
+}
+.product-name {
+    float: left;
+    /* width: 80%; */
+}
+.product-name h4 {
+    margin: 0;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.product-price {
+    float: right;
+    background: gray;
+    padding: 10px;
+}
+.product-price span {
+    color: white;
+}
+.content {
+    background: black;
+}
+.content:hover {
+    background: green;
+}
+.content:hover .product-price {
+    background: greenyellow;
+}
